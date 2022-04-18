@@ -1,14 +1,16 @@
 //
-//  DoThingsApp.swift
-//  DoThings
+//  DoThingsSwiftUIApp.swift
+//  DoThingsSwiftUI
 //
-//  Created by Aditya Cahyo on 10/04/22.
+//  Created by Aditya Cahyo on 05/04/22.
 //
 
 import SwiftUI
 
 @main
-struct DoThingsApp: App {
+struct DoThingsSwiftUIApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()
